@@ -1,0 +1,73 @@
+ .corps {
+
+     width: 800px;
+     margin: auto;
+     border: black solid 2px;
+    background-color:skyblue;
+
+ }
+
+ button {
+
+     border-radius: 10px;
+     background-color: whitesmoke;
+
+ }
+ .jil{
+    margin-top: 10px;
+ }
+
+ #pierre {
+     height: 200px;
+     width: 150px;
+     border-radius: 5px;
+      animation: clignoter 1s infinite;
+      background-color: skyblue;
+ }
+
+ #score {
+     text-align: center;
+ }
+
+ #papier {
+     height: 200px;
+     width: 150px;
+     border-radius: 5px;
+      background-color: skyblue;
+      animation: clignoter 1s infinite;
+ }
+
+ #ciseaux {
+    height: 200px;
+     width: 150px;
+     border-radius: 5px;
+      animation: clignoter 1s infinite;
+      background-color: skyblue;
+ }
+
+ h2 {
+     text-align: center;
+ }
+
+ img {
+     width: 200px;
+     height: 200px;
+
+ }
+
+
+ @keyframes clignoter{
+    0% ,50% ,10%{ opacity: 1;}
+     25% ,75% { opacity: 0;}
+ }
+
+ .contenir .bouton {
+     display: inline-block;
+ }
+
+ a{
+margin: auto;
+ }
+ .modal-dialog {
+  margin: auto;
+}

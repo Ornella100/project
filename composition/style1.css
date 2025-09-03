@@ -1,0 +1,34 @@
+ #nom{
+    width: 600px;
+    height: 40px;
+}
+ #prenom{
+    width: 600px;
+    height: 40px;
+}
+ #tel{
+    width: 600px;
+    height: 40px;
+}
+ #email{
+    width: 600px;
+    height: 40px;
+}
+.corps{
+    display: flex;
+    flex-direction: column;
+margin-left: 310px;
+
+}
+.zone{
+    background-color: aqua;
+
+}
+.contact{
+    background-color:sandybrown ;
+    border-radius: 3px;
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}

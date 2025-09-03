@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jeu</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body>
+    
+    <audio src="audio/bensound-spotlight.mp3" id="musique"></audio>
+    <div class="corps mt-2 text-center">
+        <div class="container">
+           <button href="#" class=" text-dark d-block m-auto rounded-4 fw-bold fs-5 mt-1 bg-primary  opacity-75 " data-bs-toggle="modal"
+                                data-bs-target="#mentionsLegales" >Règle du jeu</button>
+            <div class="modal fade" id="mentionsLegales" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content ">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Règle du jeu</h5> 
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <p>
+                                Pierre-Papier-Ciseaux est un jeu simple pour deux joueurs. Chaque joueur choisit une
+                                action parmi
+                                trois possibilités :
+                                Pierre
+                                Papier
+                                Ciseaux.
+                                Les règles pour déterminer le gagnant sont les suivantes :
+
+                                Pierre bat Ciseaux (la pierre écrase les ciseaux)
+
+                                Ciseaux battent Papier (les ciseaux coupent le Papier)
+
+                                Papier bat Pierre (le Papier enveloppe la pierre).
+
+                                Si les deux joueurs choisissent la même action, la partie est nulle.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/imo.png" alt="">
+                    <p id="score">Score-Joueur:0</p>
+                </div>
+                <div class="col-2">
+                    <p style="font-size: 2.5em; margin-top: 50px;">vs</p>
+                </div>
+                <div class="col-5">
+                    <img src="images/imi.png" alt="">
+                    <p id="score1">Ordinateur:0</p>
+                </div>
+            </div>
+             <p id="resultat" style="text-align: center;">Résutats</p>
+            <h3>Fais ton choix entre Pierre (👊), Papier (✋) et Ciseaux (✌)</h3>
+            <div class="jil">
+                <button id="pierre" style="font-size: 1.5em;color:blue;">👊</button>
+                <button id="papier" style="font-size: 1.5em;color:blue;">✋</button>
+                <button id="ciseaux" style="font-size: 1.5em;color:blue;">✌</button>
+            </div>
+             <button id="son" class="rounded-4 bg-primary opacity-75">Activer le son</button>
+        </div>
+    </div>
+ <script src="bootstrap.bundle.min.js"></script>
+ <script src="script2.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+h3{
+     text-align: center;
+}
+.corps{
+    background-color: yellow;
+    margin: auto;
+    width: 500px;
+    
+    }
+
+p{
+    text-align: center;
+}
+input{
+    display: block;
+    margin: auto;
+}
+
+

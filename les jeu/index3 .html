@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style3.css">
+  <script src="script3.js" defer></script>
+  <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="card mt-5 w-50  m-auto bg-warning">
+      <div class="card-head">
+        <div class="card-body w-200">
+          <div class="corps">
+            <h3>Vérificateur de palindrome</h3>
+            <a href="" class="text-decoration-none text-dark d-block m-auto rounded-4 fs-5 mt-1 "
+              data-bs-toggle="modal" data-bs-target="#mentionsLegales"><p>En savoir plus</p></a>
+            <div class="modal fade" id="mentionsLegales" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content ">
+                  <div class="modal-header">
+                    <h5 class="modal-title">palindrome</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body text-center">
+                    <p>
+                      Le jeu du palindrome est un jeu de lettres et de logique qui consiste à identifier, créer ou
+                      compléter des mots ou phrases qui se lisent de la même manière de gauche à droite et de droite à
+                      gauche. L’objectif principal est de stimuler la mémoire, la concentration et la réflexion
+                      linguistique des joueurs.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p>Veuillez entrer un mot</p>
+            <input type="text" id="texte" placeholder="Ex: radar"
+              style="display: block; margin: auto;border-radius: 5px;width: 250px; height: 60px;"><br>
+            <button id="verifier" style="display: block; margin: auto; border-radius: 5px;">Vérifier</button>
+            <div id="resultat"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <script src="bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

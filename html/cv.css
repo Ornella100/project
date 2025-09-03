@@ -1,0 +1,39 @@
+.image{
+    width: 300px;
+    height: 150px;
+}
+.lien1{
+    display: flex;
+flex-direction: row;
+gap: 50px;
+}
+.ranger{
+    display: flex;
+    flex-direction: column;
+}
+.lili .image{
+display: flex !important;
+flex-direction: column !important;
+gap: 0px;
+}
+.lili{
+}
+
+
+
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+let lesinput=document.getElementById("inputEcriture")
+console.log(lesinput)
+let btnvalideMot=document.getElementById("btnvalideMot")
+console.log(btnvalideMot)
+let ecriture=document.querySelector("zonedeproposition")
+console.log("ecriture")
+let score=document.querySelector(".zonescore span")
+console.log
+let radio=document.querySelectorAll(".optionSource input")
+console.log(radio)

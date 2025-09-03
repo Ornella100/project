@@ -1,0 +1,39 @@
+.clik{
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: burlywood;
+}
+.titre{
+    text-align: center;
+}
+.bouton{
+    display: block;
+    margin: auto;
+}
+h2{
+    color: blueviolet;
+}
+h3{
+    color: blue;
+    text-align: center;
+}
+.score{
+    text-align: center;
+}
+.bordure{
+    background-color: coral;
+    border-radius: 5px;
+    border: solid black 2px;
+    width: 400px;
+    margin: auto;
+}
+.bouton{
+    border-radius: 8px;
+    background-color: blueviolet;
+    margin-top: 5px;
+
+}
+

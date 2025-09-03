@@ -1,0 +1,335 @@
+body {
+  background-color: aliceblue;
+
+}
+
+.logo {
+  width: 100px;
+  height: 50px;
+}
+
+.lien2 {
+  color: black;
+  opacity: 0.7;
+  width: 100%;
+  height: 500px;
+  padding: 0;
+  margin: 0;
+  padding-top: 0px;
+}
+
+.photo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  font-size: 50px;
+  color: black;
+  padding-left: 100px;
+  padding-top: 130px;
+  padding-right: 600px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100px;
+  margin-top: 20px;
+}
+
+.lien2 .photo {
+  display: flex;
+}
+
+.bien {
+  font-size: 20px;
+  color: black;
+}
+
+.couleur {
+  color: blue;
+}
+
+.bienvenue {
+  font-size: 1em;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+.imo {
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+}
+
+.bibi {
+  width: 60px;
+  height: 60px;
+}
+
+h1 {
+  font-style: italic;
+  text-align: left;
+  padding-right: 100px;
+
+}
+
+.text {
+  font-size: 0.9em;
+  padding-bottom: 40px;
+}
+
+.text {
+  background-color: skyblue;
+  height: 10px;
+  border-radius: 8px;
+}
+.vila {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.voir {
+  font-size: 2em;
+  background-color: aquamarine;
+  border-radius: 2px;
+  height: 40px;
+  width: 130px;
+  margin-bottom: 20px;
+}
+.sisi{
+  width: 645px;
+  height: 380px;
+}
+
+.appart {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 5px;
+}
+  .conteneur{
+    display: flex;
+  }
+
+.img {
+  width: 650px;
+  height: 380px;
+}
+
+.images {
+  width: 100px;
+  height: 50px;
+}
+
+.lo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: slateblue;
+}
+
+.bol {
+  display: flex;
+  gap: 50px;
+}
+
+.logo {
+  display: flex;
+  gap: 50px;
+}
+
+.couleur {
+  color: black;
+  text-decoration: none;
+}
+
+.line {
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  background-color: burlywood;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 4px;
+
+}
+
+.lali {
+  color: blue;
+}
+
+.blac {
+  color: black;
+  text-decoration: none;
+}
+
+.conteneur {
+  position: relative;
+}
+
+.conteneur:hover {
+  background-color: black;
+  opacity: 0.7;
+}
+
+.réel {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  color:blue;
+  font-size: 1.5em;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.conteneur:hover
+.réel {
+  display: flex;
+
+}
+
+.bas {
+  margin: 20px;
+  color: royalblue;
+  text-align: left;
+  text-decoration: none;
+  font-size: 2em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pi {
+  margin: 20px;
+  font-size: 1.5em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+p {
+  max-height: 200px;
+}
+
+.object {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.pa {
+  font-size: 2em;
+  color: sienna;
+  text-align: center;
+}
+
+.pala {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  }
+
+.pala {
+  left: 0;
+}
+
+.ni {
+  margin: 10px;
+}
+.pal{
+  margin: 20px;
+  line-height: 1.2;
+}
+span{
+  color:sienna;
+}
+.pa,.po{
+  display: flex;
+  flex-direction: column;
+}
+.formulaire{
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+.for-group{
+  display: flex;
+  flex-direction: column;
+}
+.for-row{
+  display: flex;
+  flex-direction: column;
+}
+
+.date{
+  display: flex;
+  flex-direction: column;
+}
+.mi{
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+}
+.ma{
+  display: flex;
+  flex-direction: column;
+}
+input{
+  width: 200px;
+  height: 50px;
+  border-radius: 2px;
+}
+@media (max-width: 1024px) {
+    header nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteneur {
+        flex-direction: column;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Mobile : largeur max 768px */
+@media (max-width: 768px) {
+    header nav {
+        font-size: 14px;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    .logo img {
+        width: 120px;
+    }
+
+    main {
+        margin: 0;
+        padding: 0;
+    }
+}
+.ornella{        
+  font-size: 1.1em;
+  text-decoration: underline;
+}
+.option{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  background-color: beige;
+}

@@ -1,0 +1,109 @@
+#champ{
+    width:312px;
+    height: 30px;
+    margin-left: 23px;
+}
+.envoie{
+    display: flex;
+    flex-direction: row;
+    display: block;
+    margin: auto;
+}
+#liste{
+    list-style: none;
+  padding: 0;
+  max-width: 500px;            /* largeur confortable */
+  display: flex;
+  flex-direction: column;
+  gap: 12px;     
+margin-top: 8px;
+}
+#liste li {
+  background-color: #f5f5dc;           /* fond clair */     /* léger contour */           /* padding = “respire” */
+  font-size: 16px;
+  width: 340px;
+  max-width: 100%;
+  margin: auto;
+   display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    word-break: break-word;
+    padding-left: 5px;
+    padding-left: 5px;
+}
+#liste li img{
+    width: 25px;
+    height: 25px;
+}
+#liste li button {
+    display: none;            
+    margin-left: 5px;         
+}
+.compte{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+ 
+.supprimer{
+    border: solid 1px transparent ;
+    background: transparent;
+    opacity: 0.6;
+    cursor: pointer;
+    display: none;
+}
+
+#liste li:hover .terminer
+{
+      display: inline-flex;    
+    position: absolute;       
+    right: 480px;              
+  
+}
+#liste li:hover .supprimer{
+display: inline-flex;    
+    position: absolute;       
+    right:508px ;           
+    
+}
+.couleur{
+    background: linear-gradient(to bottom right, #6ee7b7, #3b82f6);;
+    display: flex;
+    flex-direction: column ;
+
+}
+.cole{
+    background: white;
+    width: 380px;
+    margin: auto;
+}
+#ajouter{
+    background-color: violet;
+    width: 30px;
+    height: 33px;
+    border-radius: 8px;
+}
+
+#vider {
+    background-color:violet;
+     width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.terminee {
+/* barre le texte */
+    color:chocolate;                    /* couleur du texte */
+    background-color: bisque;       /* couleur du fond */
+}
+p{
+    margin-left: 60px ;
+}
+
+.terminer{
+     border: solid 1px transparent ;
+    background: transparent;
+    opacity: 0.6;
+    cursor: pointer;
+    display: none;
+    }
